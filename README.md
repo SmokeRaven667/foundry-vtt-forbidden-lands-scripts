@@ -1,2 +1,2 @@
-# foundry-vtt-forbidden-lands-weather
-Weather generator for Forbidden Lands
+# foundry-vtt-forbidden-scripts
+Foundry VTT scripts for Forbidden Lands.
