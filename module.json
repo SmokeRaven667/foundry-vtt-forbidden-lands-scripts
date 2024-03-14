@@ -17,44 +17,9 @@
   },
   "packs": [
     {
-      "name": "module-creatures",
-      "label": "Module Creatures",
-      "path": "packs/creatures",
-      "type": "Actor",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-items",
-      "label": "Module Items",
-      "path": "packs/items",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-scenes",
-      "label": "Module Scenes",
-      "path": "packs/scenes",
-      "type": "Scene",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-journal-entries",
-      "label": "Module Journal Entries",
-      "path": "packs/journal-entries",
+      "name": "module-smokeraven-forbidden-lands-journal-entries",
+      "label": "SmokeRaven Journal Entries",
+      "path": "packs/smokeraven-forbidden-lands-journal-entries",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -63,43 +28,10 @@
       "flags": {}
     },
     {
-      "name": "module-macros",
-      "label": "Module Macros",
-      "path": "packs/macros",
+      "name": "module-smokeraven-forbidden-lands-macros",
+      "label": "SmokeRaven Macros",
+      "path": "packs/smokeraven-forbidden-lands-macros",
       "type": "Macro",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-roll-tables",
-      "label": "Module Roll Tables",
-      "path": "packs/roll-tables",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-playlists",
-      "label": "Module Playlists",
-      "path": "packs/playlists",
-      "type": "Playlist",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-adventures",
-      "label": "Module Adventures",
-      "path": "packs/adventures",
-      "type": "Adventure",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -107,6 +39,5 @@
       "flags": {}
     }
   ],
-  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  "manifest": "https://github.com/SmokeRaven667/smoke-raven-foundry-vtt-forbidden-lands-scripts/blob/main/module.json"
 }
