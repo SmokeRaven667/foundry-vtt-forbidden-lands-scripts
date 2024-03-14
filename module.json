@@ -1,0 +1,112 @@
+{
+  "id": "smoke-raven-foundry-vtt-forbidden-lands-scripts",
+  "title": "SmokeRaven's Forbidden Lands Scripts",
+  "description": "A collection of scripts for Forbidden Lands.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "SmokeRaven667",
+      "discord": "smokeraven667",
+      "url": "https://www.smokeraven.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10.286"
+  },
+  "packs": [
+    {
+      "name": "module-creatures",
+      "label": "Module Creatures",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-items",
+      "label": "Module Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-scenes",
+      "label": "Module Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-journal-entries",
+      "label": "Module Journal Entries",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-macros",
+      "label": "Module Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-roll-tables",
+      "label": "Module Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-playlists",
+      "label": "Module Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-adventures",
+      "label": "Module Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+}

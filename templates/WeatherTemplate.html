@@ -1,0 +1,22 @@
+<form class="flexcol">
+        <label>Campaign</label>
+        <select name="campaign" id="campaign" onchange="handleCampaignChange(this)">
+            {{# each campaigns}}
+            <option>{{ this }}</option>
+            {{/each}}
+        </select>
+     <label>Season</label>
+    <select name="season" id="season" onchange="handleSeasonChange(this)">
+            {{# each seasons}}
+            <option>{{ this }}</option>
+            {{/each}}
+        </select>
+         <label>Biome</label>
+        <select name="biomes" id="biomes" onchange="handleBiomeChange(this)">
+            {{# each biomes}}
+            <option>{{ this }}</option>
+            {{/each}}
+        </select>
+    <br/>
+    </div>
+</form>
