@@ -15,30 +15,30 @@
     "minimum": "0.8.6",
     "verified": "10.286"
   },
-  "packs": [
-    {
-      "name": "module-smokeraven-forbidden-lands-journal-entries",
-      "label": "SmokeRaven Journal Entries",
-      "path": "packs/smokeraven-forbidden-lands-journal-entries",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "module-smokeraven-forbidden-lands-macros",
-      "label": "SmokeRaven Macros",
-      "path": "packs/smokeraven-forbidden-lands-macros",
-      "type": "Macro",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    }
-  ],
+  // "packs": [
+  //   {
+  //     "name": "module-smokeraven-forbidden-lands-journal-entries",
+  //     "label": "SmokeRaven Journal Entries",
+  //     "path": "packs/smokeraven-forbidden-lands-journal-entries",
+  //     "type": "JournalEntry",
+  //     "ownership": {
+  //       "PLAYER": "OBSERVER",
+  //       "ASSISTANT": "OWNER"
+  //     },
+  //     "flags": {}
+  //   },
+  //   {
+  //     "name": "module-smokeraven-forbidden-lands-macros",
+  //     "label": "SmokeRaven Macros",
+  //     "path": "packs/smokeraven-forbidden-lands-macros",
+  //     "type": "Macro",
+  //     "ownership": {
+  //       "PLAYER": "OBSERVER",
+  //       "ASSISTANT": "OWNER"
+  //     },
+  //     "flags": {}
+  //   }
+  // ],
   "manifest": "https://github.com/SmokeRaven667/smoke-raven-foundry-vtt-forbidden-lands-scripts/blob/main/module.json",
   "download": "https://github.com/SmokeRaven667/smoke-raven-foundry-vtt-forbidden-lands-scripts/archive/refs/tags/v1.0.0.0.zip"
 }
